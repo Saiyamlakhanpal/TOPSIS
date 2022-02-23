@@ -6,13 +6,13 @@ import numpy as np
 # Github- https://github.com/Saiyamlakhanpal
 
 class topsis:
-    r_no = '101917188'
 
     def __init__(self, input_file, weight_str, impact_str, out_file):
         self.input_file = input_file
         self.weight_str = weight_str
         self.impact_str = impact_str
         self.out_file = out_file
+        self.r_no = '101917188'
 
     def calculate(self):
         weights = self.weight_str.split(',')
@@ -30,8 +30,8 @@ class topsis:
 
         try:
             read_file = pd.read_excel(self.input_file)
-            read_file.to_csv(r_no + '-data.csv', index=None, header=True)
-            df = pd.read_csv(r_no + "-data.csv")
+            read_file.to_csv(self.r_no + '-data.csv', index=None, header=True)
+            df = pd.read_csv(self.r_no + "-data.csv")
         except FileNotFoundError:
             print("File not found")
             exit()
