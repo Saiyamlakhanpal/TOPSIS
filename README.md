@@ -1,7 +1,7 @@
 ######A library to calculate Topsis!!
 A pip library created using python to implement TOPSIS
 #####Installation
-Use `pip install Topsis_101917188_Saiyam`
+Use `pip install Topsis-Saiyam-101917188`
 
 #####Workflow
 
