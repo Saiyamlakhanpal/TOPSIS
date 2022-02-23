@@ -13,7 +13,7 @@ setup(
     # Provide either the link to your github or to your website
     url='https://github.com/Saiyamlakhanpal/Topsis',
     # I explain this later on
-    download_url='https://github.com/Saiyamlakhanpal/Topsis/archive/refs/tags/v_0.2.tar.gz',
+    download_url='https://github.com/Saiyamlakhanpal/Topsis/archive/refs/tags/v_0.3.tar.gz',
     # Keywords that define your package best
     keywords=['topsis', 'Rank', 'Best', 'Model'],
     install_requires=[            # I get to this in a second
