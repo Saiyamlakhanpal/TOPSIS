@@ -1,4 +1,8 @@
+######A library to calculate Topsis!!
 A pip library created using python to implement TOPSIS
-function test() {
-  console.log("notice the blank line before this function?");
-}
+#####Installation
+Use `pip install Topsis_101917188_Saiyam`
+
+#####Workflow
+
+
