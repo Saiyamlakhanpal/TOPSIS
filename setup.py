@@ -1,9 +1,9 @@
 from distutils.core import setup
 setup(
     # How you named your package folder (MyLib)
-    name='Topsis-Saiyam-101917188',
-    packages=['Topsis-Saiyam-101917188'],   # Chose the same as "name"
-    version='0.3',      # Start with a small number and increase it with every change you make
+    name='Topsis_Saiyam_101917188',
+    packages=['Topsis_Saiyam_101917188'],   # Chose the same as "name"
+    version='0.1',      # Start with a small number and increase it with every change you make
     # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     license='MIT',
     # Give a short description about your library
