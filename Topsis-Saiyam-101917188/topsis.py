@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import sys
 
 
 #Saiyam Lakhanpal
@@ -93,7 +92,7 @@ class topsis:
           ind = np.argmax(temp)
           rank[ind] = count
           count += 1
-          temp[ind] = -sys.maxsize
+          temp[ind] = -99
 
             
         df_out = df;
