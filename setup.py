@@ -3,7 +3,7 @@ setup(
     # How you named your package folder (MyLib)
     name='Topsis-Saiyam-101917188',
     packages=['Topsis-Saiyam-101917188'],   # Chose the same as "name"
-    version='0.1',      # Start with a small number and increase it with every change you make
+    version='0.3',      # Start with a small number and increase it with every change you make
     # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     license='MIT',
     # Give a short description about your library
@@ -13,13 +13,12 @@ setup(
     # Provide either the link to your github or to your website
     url='https://github.com/Saiyamlakhanpal/Topsis',
     # I explain this later on
-    download_url='https://github.com/Saiyamlakhanpal/Topsis/archive/refs/tags/v_01.tar.gz',
+    download_url='https://github.com/Saiyamlakhanpal/Topsis/archive/refs/tags/v_0.2.tar.gz',
     # Keywords that define your package best
     keywords=['topsis', 'Rank', 'Best', 'Model'],
     install_requires=[            # I get to this in a second
         'numpy',
         'pandas',
-        'sys'
     ],
     classifiers=[
         # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
